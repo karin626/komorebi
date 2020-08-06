@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Navigation*/
+
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 10%;
+	height: auto;
+}
+.nav{
+	list-style: none;
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+ul.nav{
+	padding: 0;
+	margin: 0;
+}
+.nav li{
+	text-align: center;
+	padding: 0;
+	display:inline-block;
+	width: 140px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #333;
+	font-weight: 300;
+	
+}
+
+/*/Navigation*/
+.title{
+	text-align: center;
+	font-size: 1.8rem;
+	margin: 80px 0 100px;
+}
+.main{
+}
+.main div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.main .text{
+	width: 35%;
+	
+}
+.main .icon{
+	text-align:right;
+	width: 50%;
+	
+}
+.icon img{
+	width: 35%;
+	margin-right: 20%;
+}
+
+
+
+
+
