@@ -17,34 +17,33 @@ body{
 .cursive{
 	font-family: caflisch-script-pro, sans-serif;
 }
-
 .space{
 	letter-spacing: 0.03em;
 }
-
-
-
-
-
-
-
 /*Navigation*/
 
+.header{
+	display:flex;
+	justify-content: space-between;
+}
 .logo{
-	text-align: center;
+	
 }
 .logo img{
-	width: 10%;
+	width: 25%;
 	height: auto;
+	margin: 1vh 2vh;
+}
+.subtitile{
+	color: #7d7d7d;
 }
 .nav{
 	list-style: none;
 	text-align: center;
-	font-family: 'Noto Sans JP', sans-serif;
+	margin: 2vh 3vh 0;
 }
 ul.nav{
-	padding: 0;
-	margin: 0;
+
 }
 .nav li{
 	text-align: center;
@@ -54,19 +53,64 @@ ul.nav{
 }
 .nav li a{
 	text-decoration: none;
-	color: #333;
+    color: #f29c9f;
 	font-weight: 300;
+	opacity: 0.8;
+	font-size:1.4rem;
+	padding-bottom: 3px;
 	
+}
+.header .nav a {
+  position: relative;
+}
+.header .nav a::after {
+  position: absolute;
+  color: #f29c9f;
+  left: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 0%;
+  height: 1px;
+  background:#f29c9f;;
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.header .nav a:hover::after {
+  width: 100%;
 }
 
 /*/Navigation*/
+/*  Footer*/
+.footer{
+	background-color:#f29c9f;
+	height: 5vh;
+	display: flex;
+	padding: 5vh;
+	justify-content: space-between;
+	opacity: 0.8;
+	
+	
+}
+.footer img{
+	width: 35%;
+}
+.footer_sns i{
+    color: #fff;
+    border-radius: 50%;
+    transition: .4s;
+	border-color: #fff;
+	font-size: 1.8rem;
+	padding: 0 2vh;	
+}
+/*  /Footer*/
+
 
 
 
 /*TOP*/
 
 .top{
-	height:100vh;
+	height:80vh;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -85,7 +129,7 @@ ul.nav{
 	width: 100%;
 }
 .top_txt p:first-child{
-	font-size: 1.4rem;
+	font-size: 2rem;
     color: #f29c9f;
     margin: 0 0 20px;
 }
@@ -101,6 +145,12 @@ ul.nav{
     margin-top: 20px;
     text-align: right;
 }
+.section_1_titile{
+    margin: 20px 0;
+    text-align: right;
+}
+.top_text img{
+}
 
 .title{
 	text-align: center;
@@ -113,30 +163,30 @@ ul.nav{
 /*WHAT IS HSP*/
 .section_2{
 	margin: 20vh 0;
-	height: 90vh;
+	height: 65vh;
 	padding: 20vh 0;
 	font-family: source-han-serif-japanese, serif;
 	background-image:url("../picture/bg_pink.png");
 	background-repeat: no-repeat;
-	background-size: cover;
-	
-
+	background-size: 100% 100%;
 }
-.section_2 p:nth-child(1){
+.section_2_title{
 	text-align: center;
-    font-size: 3rem;
-    font-weight: 100;
-	color: #f29c9f;
+}
+.section_2_title img{
+    margin: 2vh 0 1vh;
+	width: 20%;
 }
 .section_2 p:nth-child(2){
 	text-align: center;
     margin-bottom: 50px;
+	color: #7d7d7d;
 
 }
 .section_2 p:nth-child(3){
 	width: 75%;
     margin: 0 auto;
-    line-height: 2rem;
+    line-height: 2;
 
 }
 
@@ -161,78 +211,65 @@ ul.nav{
     padding: 60px 35px;
 }
 
-/* 心のセルフケア*/
-.section_3{
-	width: 80%;
-    margin: 0 auto;
-	font-family: source-han-serif-japanese, serif;
-	
-}
-.section_3 .title{
-	text-align:left;
-	font-size: 3rem;
-    font-weight: 100;
-    color: #f29c9f;
-	margin-bottom: 10px;
-	
-}
-.contents{
-	width: 80%;
-	margin: 50px auto 90px;
-    line-height: 2;
-}
+
 
 /*   /WHAT IS HSP   */
 
 
 /*   SELFCARE   */
-.section_3 ul{
+.section_3{
+    margin: 0 auto;
+	font-family: source-han-serif-japanese, serif;
 	
-} 
+}
+.section_3 .title{
+	line-height: 1.5;
+	text-align:left;
+	font-size: 3rem;
+    font-weight: 100;
+    color: #f29c9f;
+}
+.section_3 .subtitile{
+    margin-bottom: 30px;
+	color: #7d7d7d;
+}
+
+.section_3_bg{
+	
+}
+.section_3_title{
+	margin-bottom: 1vh;
+}
+.section_3_contents{
+    width: 60%;
+	margin: 0 auto;
+    line-height: 2;
+
+}
 .section_3_list {
+	width: 70%;
 	font-size:0.8em;
     align-items: center;
-    margin: 40px auto 100px;
+    margin: 2vh auto;
     list-style: none;
     display: flex;
     justify-content: space-between;
     text-align: center;
     line-height: 2;
 }
-.section_3_list li{
-	background-repeat: no-repeat;
-	font-size: 0.8em;
-	background-size: 100% 100%;
-   	padding: 70px 35px;
-}
-.section_3_list li:nth-child(1){
-	background-image:url( "../picture/bg_3_1.png");	
-}
-.section_3_list li:nth-child(2){
-	background-image:url( "../picture/bg_3_2.png");
-	
-}
-.section_3_list li:nth-child(3){
-	background-image:url( "../picture/bg_3_3.png");
-}
-.section_3_list li p:nth-child(1){
-	font-size:1rem;	
-	color:#fff;
-	text-transform:uppercase;
-}
-.section_3_list li p:nth-child(2){
-	font-size:1.5rem;	
+.section_3_list img{
+	width: 25%;
 }
 .ws_title{
 	font-family: 'Crimson Text', serif;
 	text-align: center;
-    margin: 5% 0 2%;
-	font-size: 2rem;
-	
+    margin: 10vh 0 5vh;
+	font-size: 3rem;	
 }
+
 hr{
-	width: 7%;
-    margin-bottom: 5%;
+	width: 3%;
+	margin-bottom: 7vh;
 }
 .ws{
 	display: flex;
@@ -246,10 +283,18 @@ hr{
 	text-decoration: none;
 	width: 30%;
 	margin-bottom: 10%;
+	transition: all .3s;
+	overflow:hidden;
+	
 }
-
+.ws a:hover{
+    cursor: pointer;
+	opacity: 0.7;
+	transform:scale(1.05,1.05);
+	
+}
 .ws img{
-	width: 200px;
+    width: 50%;
 }
 .ws p{
 	font-size: 0.9rem;
@@ -258,6 +303,19 @@ hr{
     margin: 5% 10%;
     text-align: left;
 	line-height: 2;
+}
+.howto{
+	text-align: center;
+	margin: 6vh 0 3vh;
+}
+.howto img{
+	width: 18%;
+}
+.howto p{
+	color: #feb6b9;
+    font-size: 2rem;
+	margin: 1vh;
+	
 }
 
 /*   /SELFCARE   */
@@ -346,6 +404,7 @@ hr{
 	font-size: 1.2rem;
     color: #f29c9f;
 	margin: 0 0 15px;
+	
 }
 .news_date p:nth-child(2){
     color: #f29c9f;
@@ -355,20 +414,116 @@ hr{
 	font-size: 1rem;
 	line-height: 2rem;
 }
-
 .news_date{
 	justify-content: space-between;
 	display: flex;
+}
+/*　　　/NEWS   */
+
+
+/*==========================
+
+
+SHEET 2 
+
+
+=========================*/
+.about_titile{
+	text-align: center;
+    margin: 7.5vh 0 5vh;
+}
+.about_titile img{
+	width: 15%;
+}
+.main{
+	display: flex;
+	align-items: center;
+	
+}
+
+.icon{
+	text-align: right;
+	width: 45%;
+}
+.icon img{
+	width: 40%;
+	margin-right: 20%;
+}
+.profile_hr{
+	width: 3%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+	color: #f29c9f;
+}
+.main .text{
+	width: 40%;
+}
+.text p:nth-child(1){
+	font-size: 3rem;
+    margin: 10px 0;
+	color: #f29c9f;
+	letter-spacing: 0.3em;
+}
+.text p:nth-child(2){
+	margin: 0 0 20px;
+	line-height: 1.8;
+}
+.text p:nth-child(3){
+	font-size: 2rem;
+    color: #f29c9f;
+    margin-bottom: 10px;
+}
+.text li{
+	line-height: 1.8;
+}
+
+.shikaku{
+	text-align: center;
+    margin: 20vh 0;
+}
+.shikaku img{
+	padding: 0 25px;
+}
+.shikaku_titile{
+	margin-bottom: 3vh;
+}
+.shikaku_titile p{
+	display: inline;
+	font-size:2rem;
+}
+.shikaku_titile img{
+	vertical-align: middle;
+}
+.shikaku li{
+	line-height: 2.5;
+}
+
+
+.footer{
+	background-color:#f29c9f;
+	height: 5vh;
+	display: flex;
+	padding: 5vh;
+	justify-content: space-between;
+	opacity: 0.8;
+	
+	
+}
+.footer img{
+	width: 35%;
+}
+.footer_sns i{
+    color: #fff;
+    border-radius: 50%;
+    transition: .4s;
+	border-color: #fff;
+	font-size: 1.8rem;
+	padding: 0 2vh;
 	
 }
 
 
 
-
-
-
-
-/*　　　/NEWS   */
 
 
 
