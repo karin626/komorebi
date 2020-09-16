@@ -13,6 +13,7 @@ body{
 	letter-spacing: 0.03em;
 }
 
+
 /*Utility*/
 .cursive{
 	font-family: caflisch-script-pro, sans-serif;
@@ -126,11 +127,14 @@ body{
 }
 .ninchi{
 	text-align: center;
-	margin: 3vh 0;
+	margin: 5vh 0;
 	
 }
-.ninchi img{
+.ninchi img:nth-child(1){
 	    width: 65%;
+}
+.ninchi img:nth-child(2){
+	    display: none;
 }
 
 
@@ -173,7 +177,7 @@ body{
 
 }
 .section_3_list {
-	width: 70%;
+	width: 60%;
 	font-size:0.8em;
     align-items: center;
     margin: 2vh auto;
@@ -184,7 +188,7 @@ body{
     line-height: 2;
 }
 .section_3_list img{
-	width: 25%;
+    width: 30%;
 }
 .section_3_contents p{
 	font-weight: 100;
@@ -248,65 +252,6 @@ hr{
 }
 
 /*   /SELFCARE   */
-
-/*　　　WHAT IS CBD?   */
-.section_4{
-	background-color: #f0f9f7;
-	
-}
-.section_4 .contents {
-	font-size: 0.9rem;
-    padding: 50px;
-    width: 60%;
-    margin: 20px auto 0;
-    line-height: 2;
-    background-color: rgba(255,255,255,0.5);
-}
-.section_4 .title {
-	margin:0 0 10px;
-    text-align: left;
-    font-size: 3rem;
-    font-weight: 100;
-    color: #48cbc6;
-}
-.section_4 div:nth-child(1){
-	width: 80%;
-	margin: 0 auto;
-	padding: 20vh 0 0;
-}
-.section_4 div:nth-child(2){
-	padding-bottom: 50px;
-}
-.section_4 a{
-	color: #333;
-	width: 15%;
-    margin: 0 auto;
-	display: block;
-	text-align: center;
-    font-size: 1.2rem;
-    font-style: none;
-    padding: 15px 30px;
-    background: #fff;
-	text-decoration: none;
-}
-.cbt_pic{
-	text-align: right;
-	position: relative
-	
-	
-}
-.cbt_pic img{
-	width: 25%;
-	position: absolute;
-    right: 10%;
-    top: -150%;
-	
-}
-
-/*　　　/WHAT IS CBD?   */
-
-
-
 
 /*　　　NEWS   */
 .section_5{
@@ -429,22 +374,83 @@ SHEET 2
 }
 
 
+@media screen and (max-width: 480px) {
+	.section_2{
+		background-image:url(../picture/bg_pink_sp.png);
+		padding: 10vh 0;
+	}
+	.section_2 p:nth-child(3) {
+		width: 80%;
+	}
+	.section_2_title img {
+   		width: 70%;
+		
+}
+	
+	.section_3_contents {
+    	width: 80%;
+	}
+	.section_3_title img {
+    	width: 85%;
+	}
+	.ninchi img:nth-child(2){
+	    width: 90%;
+		display: block;
+		margin: 0 auto;
+	}	
+	.ninchi img:nth-child(1){
+	    display: none;
+	}
+	.howto img {
+    	width: 70%;
+	}
+	
+	.section_3_list{
+		width: 100%;
+		display: block;
+	}
+.section_3_list img {
+    width: 70%;
+	}
+	
+	.ws{
+		width: 90%;
+	}
+	.ws a {
+		text-decoration: none;
+		width: 50%;
+	}
+	.ws img {
+    	width: 75%;
+	}
 
 
+/* SHEET 2 */
+	
+	.main {
+		display: block;
+	}
+	
+	.main .text {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.icon {
+		margin: 0 auto;
+		text-align: center;
+		width: 60%;
+		}
+	.icon img {
+		margin-bottom: 5vh;
+		width: 100%;
+    margin-right: 0%;
+		}
+	
+	.shikaku {
+		margin: 10vh 0;
+	}
+	
+/* SHEET 2 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 

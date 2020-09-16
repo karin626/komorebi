@@ -181,17 +181,12 @@ table td{
 }
 .step img{
 	width: 20%;
-	margin: 10vh 5vh;
-	
+	margin: 10vh 5vh;	
 }
-
-
 .online{
 	width: 55%;
 	margin-bottom: 2vh;
 }
-
-
 .zoom{
 	align-items: center;
 	display: flex;
@@ -226,4 +221,84 @@ span{
 	font-family: 'Arapey', serif;
 	font-style: italic;
 	
+}
+
+@media screen and (max-width: 480px) {
+	.title {
+		width: 80%;
+		text-align: center;
+		margin: 7vh auto 0;
+}
+	
+	.title img {
+		width: 100%;
+	}
+	.content {
+    	width: 80%;
+		margin: 0 auto 10vh;
+	}
+	.main{
+		display: block;
+	}
+	.course {
+    	width: 80%;
+		margin: 0 auto 10vh;
+	}
+	ul.type {
+		padding: 0 5%;
+	}
+	ul.flow {
+		padding: 0 5%;
+	}
+	.ccflow_titile_eng {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.ccflow_titile_eng img {
+		width: 100%;
+	}
+	.step img {
+		width: 80%;
+		margin: 5vh 0;
+	}
+	.type li {
+    font-size: 1.3rem;
+	}
+	.zoom{
+		display: block;
+				margin: 0 auto;
+	}
+	
+	.zoom_content {
+		width: 100%;
+
+	}	
+	.zoom_content p{
+		width: 80%;
+		margin: 0 auto;
+    	font-weight: 100;
+	}
+	.online {
+    	width: 80%;
+    	margin: 2vh auto;
+	}
+	.zoom_pic{
+		width: 80%;
+		margin: 0 auto
+	}
+	.app {
+    	margin: 3vh auto 3vh;
+		text-align: center;
+		}
+	.app img {
+		margin: 0 2vh;
+		width: 30%;
+	}
+	
+
+
+
+
+
+
 }
