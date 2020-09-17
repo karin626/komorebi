@@ -226,7 +226,7 @@
 		display: inherit;
 	}
 	.footer img {
-    	width: 50%;
+    	width: 40%;
 	}
 	.nav li:nth-child(5):nth-child(6) {
     	margin: 3vh 3vh 0;
@@ -245,5 +245,8 @@
 		padding: 3vh 1vh;
 
 		}	
+	.footer_sns a{
+		margin: 0 1vh;
+}
 
 }
