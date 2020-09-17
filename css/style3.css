@@ -286,7 +286,7 @@ span{
 	}
 	
 	.zoom_content {
-		margin: 4vh 0;
+    	margin: 4vh 0 10vh;
 		width: 100%;
 
 	}	
@@ -304,7 +304,7 @@ span{
 		margin: 0 auto
 	}
 	.app {
-    	margin: 3vh auto 3vh;
+    	margin: 5vh auto;
 		text-align: center;
 		}
 	.app img {

@@ -54,7 +54,7 @@
 	font-weight: 300;
 	opacity: 0.8;
 	font-size:1.4rem;
-	padding-bottom: 3px;
+    padding-bottom: 5px;
 	
 }
 .header .nav a {
@@ -82,6 +82,7 @@
 /* Footer */
 
 .footer{
+	align-items: center;
 	background-color:#f29c9f;
 	height: 5vh;
 	display: flex;
@@ -94,9 +95,11 @@
 .footer img{
 	width: 35%;
 }
+.footer_sns a{
+	margin: 0 2vh;
+}
 .footer_icon{
 	text-align: center;
-	margin: 0 2vh;
 	color: #f29c9f;
    	border-radius: 50%;
     transition: .4s;
@@ -221,7 +224,6 @@
 		}
 	.footer_sns{
 		display: inherit;
-		margin: 2vh auto 10vh;
 	}
 	.footer img {
     	width: 50%;
@@ -231,8 +233,17 @@
 }
 	nav.globalMenuSp ul li a:nth-child(5):nth-child(6){
 		    padding: 4vh;
-		
 	}
+	.nav li:nth-child(5){
+		width: 70px
+	}
+	.nav li:nth-child(6){
+		width: 70px
+	}
+	
+	.footer {
+		padding: 3vh 1vh;
 
-		
-	}
+		}	
+
+}
