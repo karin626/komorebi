@@ -13,13 +13,14 @@ body{
 	overflow-x: hidden;
 	letter-spacing: 0.03em;
 }
-
+.section_2_main{
+	padding: 15vh 0 0;
+}
 .ccbg img{
 	 width: 100%;
 }
 
 .title{
-	margin-top: 7.5vh;
 	text-align: center;
 }
 .title img{
@@ -211,10 +212,15 @@ table td{
 	    font-weight: 100;
 }
 .app img{
+	margin: 0 4vh;
 	width: 30%;
 }
 .app{
+	text-align: center;
 	margin: 3vh 0 0;
+}
+.app a{
+	text-decoration: none;
 }
 span{
 	font-size:4rem;
@@ -224,10 +230,14 @@ span{
 }
 
 @media screen and (max-width: 480px) {
+	.section_2_main {
+		padding: 0;
+
+	}
 	.title {
 		width: 80%;
 		text-align: center;
-		margin: 7vh auto 0;
+    	margin: 10vh auto 0;
 }
 	
 	.title img {
@@ -262,7 +272,13 @@ span{
 		margin: 5vh 0;
 	}
 	.type li {
-    font-size: 1.3rem;
+    	font-size: 1.3rem;
+	}
+	.apply {
+    	margin: 5vh 0;
+	}
+	.apply a{
+		padding: 6% 10%;
 	}
 	.zoom{
 		display: block;
@@ -270,6 +286,7 @@ span{
 	}
 	
 	.zoom_content {
+		margin: 4vh 0;
 		width: 100%;
 
 	}	
@@ -280,7 +297,7 @@ span{
 	}
 	.online {
     	width: 80%;
-    	margin: 2vh auto;
+    	margin: 4vh auto;
 	}
 	.zoom_pic{
 		width: 80%;
