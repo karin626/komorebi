@@ -77,8 +77,7 @@ body{
 /*WHAT IS HSP*/
 .section_2{
 	margin: 20vh 0;
-	height: 65vh;
-	padding: 20vh 0;
+	padding: 15vh 0 10vh;
 	font-family: source-han-serif-japanese, serif;
 	background-image:url("../picture/bg_pink.png");
 	background-repeat: no-repeat;
@@ -119,6 +118,16 @@ body{
 	 width: 18%;
 	 margin: 0 3vh;
 	display: block;
+}
+.girl{
+	width: 60%;
+    margin: 10vh auto;
+}
+.girl_sp{
+	display: none;
+}
+.girl img{
+	width: 100%;
 }
 
 .ninchi{
@@ -439,6 +448,17 @@ SHEET 2
 	.section_2_list img {
 		width: 33%;
 		margin:2vh;
+	}
+	.girl{
+		display: none;
+	}
+	.girl_sp{
+		width: 95%;
+		display: block;
+		margin: 5vh auto;
+	}
+	.girl_sp img{
+		width: 100%;
 	}
 	.section_3_contents {
     	width: 80%;

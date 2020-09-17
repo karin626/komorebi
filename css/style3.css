@@ -46,6 +46,24 @@ body{
 	background-color: #fff6f6;
     padding: 3%;
 }
+.course_2 th{
+	background-color: #f5d1c3;
+}
+.course_2 table th:after {
+	border-left: 10px solid #f5d1c3;
+	}
+.course_2 h3{
+	color:#f5d1c3;
+}
+.course_2 .apply a{
+	color: #f5d1c3;
+}
+.course_2 .apply a:hover{
+	background-color:#f5d1c3;
+}
+.course:nth-child(2){
+    background-color: rgba(245,209,195,0.2);
+}
 .course p{
 	font-size: 7rem;
     font-family: 'Arapey', serif;
