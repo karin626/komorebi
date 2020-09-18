@@ -221,17 +221,18 @@ hr{
 	text-decoration: none;
 	width: 30%;
 	margin-bottom: 10%;
-	transition: all .3s;
 	overflow:hidden;
 	
 }
-.ws a:hover{
+.ws img:hover{
     cursor: pointer;
 	opacity: 0.7;
-	transform:scale(1.05,1.05);
-	
+
+	transform:scale(1.05,1.05);	
 }
+
 .ws img{
+	transition: all .3s;
     width: 50%;
 }
 .ws p{

@@ -1,6 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*　フワッと　*/
+.down-to-top {
+  opacity: 0.1;
+  transform: translateY(30px);
+  transition: all 0.5s;
+}
+.down-to-top.scrollin {
+  opacity: 1;
+  transform: translateY(0);
+}
+/*　フワッと　*/
 
 /*Navigation*/
 .hamburger{
@@ -8,6 +19,7 @@
 }
 
 .header{
+	z-index: 100;
 	align-items: center;
 	width: 100%;
 	position: fixed;
