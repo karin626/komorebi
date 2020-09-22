@@ -46,6 +46,16 @@ body{
 	background-color: #fff6f6;
     padding: 3%;
 }
+.course_type img{
+	width: 100%;
+}
+.course_type{
+	width: 90%;
+    margin: 5vh auto;
+}
+.course_type img:nth-child(2){
+	display: none;
+}
 .course_2 th{
 	background-color: #f5d1c3;
 }
@@ -61,24 +71,19 @@ body{
 .course_2 .apply a:hover{
 	background-color:#f5d1c3;
 }
+
 .course:nth-child(2){
     background-color: rgba(245,209,195,0.2);
 }
 .course p{
 	font-size: 7rem;
     font-family: 'Arapey', serif;
-    color: #fff;
+    color: #feb6b9;
     font-style: italic;
 }
-ul.type{
-	padding: 0 20%;
-    text-align: left;
+.course_2 p{
+	color:#f5d1c3;
 }
-.type li{
-	font-size: 1.4rem;
-	line-height: 1.8;
-	}
-
 .ccpic img{
 	    width: 35%;
     margin: 4vh;
@@ -126,13 +131,9 @@ ul.time{
 .apply a:hover{
 	background-color:#feb6b9;
 	color: #fff;
-	
-	
 }
-
-
 table{
-	min-width: 80%;
+    min-width: 90%;
 	margin: 4vh auto;
   border-collapse: collapse;
 }
@@ -272,9 +273,16 @@ span{
     	width: 80%;
 		margin: 0 auto 10vh;
 	}
-	ul.type {
-		padding: 0 5%;
+	.course_type img:nth-child(1){
+		display: none;
 	}
+	.course_type img:nth-child(2){
+		display:block;
+	}
+	.course_type{
+		width:100%;
+	}
+
 	ul.flow {
 		padding: 0 5%;
 	}
@@ -289,9 +297,7 @@ span{
 		width: 80%;
 		margin: 5vh 0;
 	}
-	.type li {
-    	font-size: 1.3rem;
-	}
+
 	.apply {
     	margin: 5vh 0;
 	}
@@ -327,7 +333,7 @@ span{
 		}
 	.app img {
 		margin: 0 2vh;
-		width: 30%;
+		width: 40%;
 	}
 	
 

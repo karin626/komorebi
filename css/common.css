@@ -114,7 +114,6 @@
 	text-align: center;
 	color: #f29c9f;
    	border-radius: 50%;
-    transition: .4s;
     border-color: #fff;
     font-size: 1.8rem;
     background-color: rgba(255,255,255,0.8);
@@ -188,7 +187,6 @@
 		text-align: center;
 		width: 100%;
 		visibility: hidden;
-		transition: opacity .6s ease, visibility .6s ease;
 	}
 
 	nav.globalMenuSp ul {
@@ -202,7 +200,6 @@
 		list-style-type: none;
 		padding: 0;
 		width: 100%;
-		transition: .4s all;
 
 	}
 	nav.globalMenuSp ul li:last-child {
@@ -255,10 +252,9 @@
 	
 	.footer {
 		padding: 3vh 1vh;
-
-		}	
+	}	
 	.footer_sns a{
 		margin: 0 1vh;
-}
+	}
 
 }
