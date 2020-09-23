@@ -343,11 +343,12 @@ SHEET 2
 .main .text{
 	width: 40%;
 }
-.text p:nth-child(1){
-	font-size: 3rem;
-    margin: 10px 0;
-	color: #f29c9f;
-	letter-spacing: 0.3em;
+.name{
+	width: 25%;
+    margin: 3vh 0;
+}
+.name img{
+	width: 100%;
 }
 .text p:nth-child(2){
 	margin: 0 0 20px;
@@ -413,7 +414,7 @@ SHEET 2
 	
 	.top_txt p:nth-child(2) {
 		background-color: rgba(255,255,255,0.3);
-    	padding: 2vh;
+		padding: 0 2vh 2vh 0;
 	}
 	.top_img{
 		width: 60%;
@@ -519,12 +520,23 @@ SHEET 2
 	.icon img {
 		margin-bottom: 5vh;
 		width: 100%;
-    margin-right: 0%;
+    	margin-right: 0%;
 		}
-	
+	.name{
+		width: 50%;
+		margin: 3vh auto;
+	}
+	.name img{
+		width: 100%;
+	}
+
 	.shikaku {
 		margin: 10vh 0;
 	}
+	.text p:nth-child(3) {
+		text-align: center;
+		}
+
 	
 /* SHEET 2 */
 
