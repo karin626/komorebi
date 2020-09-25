@@ -342,9 +342,10 @@ SHEET 2
 }
 .main .text{
 	width: 40%;
+	font-weight: 100;
 }
 .name{
-	width: 25%;
+	width: 20%;
     margin: 3vh 0;
 }
 .name img{
@@ -356,23 +357,27 @@ SHEET 2
 	font-weight: 100;
 }
 .text p:nth-child(3){
-	font-size: 2rem;
+	font-size: 1.5rem;
     color: #f29c9f;
-    margin-bottom: 10px;
 }
 .text li{
 	line-height: 1.8;
+	font-size: 1.5rem;
 }
 
 .shikaku{
-	text-align: center;
-    margin: 20vh 0;
+    margin: 10vh auto 20vh;
+    width: 50%;
 }
 .shikaku img{
-	padding: 0 25px;
+	width: 100%;
 }
+.shikaku img:nth-child(2){
+	display: none;
+}
+
 .shikaku_titile{
-	margin-bottom: 3vh;
+	margin-bottom: 2vh;
 }
 .shikaku_titile p{
 	color: #f29c9f;
@@ -390,12 +395,19 @@ SHEET 2
     margin-bottom: 50px;
     color: #7d7d7d;
 }
+.hr_2{
+    width: 100%;
+    margin: 0.5vh 0 1vh;
+    border: 0;
+    height: 1px;
+	background-color: #f29c9f;
+}
 
 
 
 @media screen and (max-width: 480px) {
 	.about_titile{
-		width: 45%;
+		width: 35%;
 		padding: 10vh 0 0;
 	}
 	.top{
@@ -506,6 +518,7 @@ SHEET 2
 	
 	.main {
 		display: block;
+		font-family: source-han-serif-japanese, serif;
 	}
 	
 	.main .text {
@@ -518,24 +531,40 @@ SHEET 2
 		width: 60%;
 		}
 	.icon img {
-		margin-bottom: 5vh;
 		width: 100%;
     	margin-right: 0%;
 		}
 	.name{
-		width: 50%;
-		margin: 3vh auto;
+		width: 35%;
+		margin: 5vh auto 3vh;
 	}
 	.name img{
 		width: 100%;
 	}
-
+	.shikaku_titile{
+		margin: 2vh 0
+	}
 	.shikaku {
-		margin: 10vh 0;
+		margin: 5vh auto 10vh;
+		width: 90%;
+	}
+	.shikaku img:nth-child(1){
+		display: none;
+	}
+	.shikaku img:nth-child(2){
+		display: block;
 	}
 	.text p:nth-child(3) {
 		text-align: center;
-		}
+	}
+
+	.hr_2 {
+       width: 20%;
+		height: 1px;
+		margin: 2vh auto;
+		background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(242,156,159,1), rgba(0,0,0,0));
+		border: 0;
+			}
 
 	
 /* SHEET 2 */

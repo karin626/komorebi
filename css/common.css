@@ -2,6 +2,11 @@
 /* CSS Document */
 
 /*　フワッと　*/
+.down-to-top_off {
+  opacity: 1;
+  transform: translateY(30px);
+  transition: all 0.5s;
+}
 .down-to-top {
   opacity: 0.1;
   transform: translateY(30px);
@@ -11,6 +16,7 @@
   opacity: 1;
   transform: translateY(0);
 }
+
 /*　フワッと　*/
 
 /*Navigation*/
@@ -125,6 +131,7 @@
 
 
 @media screen and (max-width: 480px) {
+	
  	/*　ハンバーガーボタン　*/
 	.hamburger {
 	  display : block;
