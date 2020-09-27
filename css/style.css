@@ -201,11 +201,19 @@ body{
 .section_3_contents p{
 	font-weight: 100;
 }
+.section_3_contents_{
+	text-align: left;
+}
 .ws_title{
 	font-family: 'Crimson Text', serif;
 	text-align: center;
     margin: 10vh 0 5vh;
 	font-size: 3rem;	
+}
+.ws_intro{
+	width: 60%;
+    margin: 0 auto 5vh;
+    font-weight: 100;
 }
 
 hr{
@@ -511,6 +519,10 @@ SHEET 2
 	}
 	.ws img {
     	width: 75%;
+	}
+	.ws_intro {
+		width: 80%;
+		line-height: 2;
 	}
 
 
