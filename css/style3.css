@@ -102,7 +102,7 @@ h3{
 	margin: 3vh 0 1vh;
 }
 ul.flow{
-	padding: 0 15%;
+    padding: 0 10%;
     text-align: left;
 }
 .flow li{
@@ -285,6 +285,11 @@ div .qa_contents{
 }
 .app a{
 	text-decoration: none;
+}
+.app img:hover{
+    cursor: pointer;
+	opacity: 0.7;
+	transform:scale(1.05,1.05);	
 }
 span{
 	font-size:4rem;

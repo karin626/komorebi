@@ -42,7 +42,9 @@
 	margin: 0 2vh;
 }
 .subtitile{
+	text-align: center;
 	color: #7d7d7d;
+	margin-bottom: 30px;
 }
 .globalMenuSp{
 	width: 70%;
