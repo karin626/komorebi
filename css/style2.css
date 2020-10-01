@@ -19,6 +19,7 @@ SHEET 2
 
 
 =========================*/
+
 .about_titile{
 	padding: 15vh 0 0;
 	text-align: center;
@@ -113,8 +114,10 @@ SHEET 2
     height: 1px;
 	background-color: #f29c9f;
 }
+
 @media screen and (max-width: 480px) {
-	/* SHEET 2 */
+/* SHEET 2 */
+	
 	.about_titile{
 		width: 35%;
 		padding: 10vh 0 0;
